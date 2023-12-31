@@ -4,16 +4,59 @@
     <meta charset="utf-8">
     <title>My Favorite Football Player Top 3</title>
     <style>
-    h1 {text-align:center; font-size:75px;}
-    a {color:black; text-decoration: none;}</style>
-
+        body {margin:0}
+        h1 {text-align:center; font-size:75px;
+        border-bottom: 3px black solid;
+        padding:35px;
+        margin:0;
+        }
+        ol {
+            font-size:20px;
+            border-right: 3px black solid;
+            width:350px; height:1200px;
+            padding:20px;
+            margin:0;
+        }
+        h2 {margin:0;}
+        li {
+            margin-left:30px;
+            line-height:50px;}
+        a {color:black; text-decoration: none;}
+        .siu {font-size:32px;}
+        #coc {display:grid;
+        grid-template-columns: 400px 600px;}
+        table {
+            border: 3px solid red;
+            text-align:center; font-size:24px;
+        }
+    </style>
 </head>
 <body>
-    <h1><a href="index.html" title="My Favorite Football Player Top-3" class="zz">My Favorite Football Player Top 3</a></h1>
-    <ol><h2>
-        <li><a href="index.2.html" target="_blank" title="My Favorite Football Player - Mesut Ozil">Mesut Özil</a></li>
-        <li><a href="index.3.html" target="_blank" title="My Favorite Football Player - Fernando Torres">Fernando Torres</a></li>
-        <li><a href="index.4.html" target="-blank" title="My Favorite Football Player - Martin Ødegaard">Martin Ødegaard</a></li></h2>
-    </ol>
+<h1><a href="index.html" title="My Favorite Football Player Top-3">My Favorite Football Player Top 3</a></h1>
+<div id="coc">
+    <div>
+        <ol>
+            <h2>
+                <li><a href="index.2.html" target="_blank" title="My Favorite Football Player - Mesut Ozil" class="siu">Mesut Özil</a></li>
+                <li><a href="index.3.html" target="_blank" title="My Favorite Football Player - Fernando Torres" class="siu">Fernando Torres</a></li>
+                <li><a href="index.4.html" target="-blank" title="My Favorite Football Player - Martin Ødegaard" class="siu">Martin Ødegaard</a></li>
+            </h2>    
+        </ol>
+    </div>
+    <div>
+        <strong><table border="3">
+            <tr>
+                <td>Mesut Özil</td>
+                <td>Fernando Torres</td>
+                <td>Martin Ødegaard</td>
+            </tr>
+            <tr>
+                <td><img width="600" height="600"src="https://i.namu.wiki/i/m-xWpPPqgenl-0vwxtUQ2TmbT88bmHIR-k8Zl3GtEsadPv4HX7b1BwWpD-dnc97z-yrX2iZ_mamyE4T_mfM1eHmpcUjpiVJiL8s9LuCRyOBhfXcXQFObqGaAv6ccr7vpq-AEO7XVQh8Pc26GHuWu2DbAHt5fCYv4849gfQ4kpqU.webp"></td>
+                <td><img width="600" height="600" src="https://www.interfootball.co.kr/news/photo/202103/524050_433547_844.jpg"></td>
+                <td><img width="600" height="600"src="https://i.namu.wiki/i/uGNos2OYQ0TaTNkDa6smQH_yudoOGpiGnyfOhFde5kDwyihC9jfQFO445YrlMbzc0QnasYjPfCiu98yptMhmRA.webp"></td>
+            </tr>
+        </table></strong>
+    </div>
+</div>
 </body>
 </html>
